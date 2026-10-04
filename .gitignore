@@ -18,8 +18,8 @@ env/
 data/raw/
 data/processed/
 
-# Models (large binary files)
-models/
+# Models (large binary files - uncomment below to ignore)
+# models/
 
 # Jupyter
 .ipynb_checkpoints/

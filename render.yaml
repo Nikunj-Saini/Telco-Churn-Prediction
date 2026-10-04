@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: churn-prediction-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.api:app --host 0.0.0.0 --port 8000
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11"
