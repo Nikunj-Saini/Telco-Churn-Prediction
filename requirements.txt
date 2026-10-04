@@ -10,3 +10,6 @@ shap
 joblib
 streamlit
 tabulate
+fastapi
+pydantic
+uvicorn[standard]
