@@ -2,7 +2,7 @@ pandas
 numpy
 matplotlib
 seaborn
-scikit-learn
+scikit-learn==1.6.1
 xgboost
 lightgbm
 imbalanced-learn
