@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { AlertTriangle, CheckCircle2, Activity, ArrowLeft, Zap, RotateCcw } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 
-const apiBase = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+const apiBase = import.meta.env.VITE_API_BASE_URL;
 
 const Select = ({ label, name, value, onChange, options, isDark }) => (
   <div className="flex flex-col gap-1.5">
